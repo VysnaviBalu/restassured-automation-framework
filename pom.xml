@@ -3,4 +3,43 @@
   <groupId>com.automation</groupId>
   <artifactId>restassured-automation-framework</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+
+    <!-- RestAssured -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.3.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version>
+    </dependency>
+
+    <!-- Faker -->
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+
+    <!-- JSON -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20230618</version>
+    </dependency>
+
+    <!-- Jackson - for POJO mapping -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.15.2</version>
+    </dependency>
+
+</dependencies>
 </project>
